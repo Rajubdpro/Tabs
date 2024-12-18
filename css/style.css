@@ -1,0 +1,24 @@
+.btn {
+    border-radius: 0;
+    font-weight: 700;
+    color: #000;
+  }
+  .item {
+    display: none;
+    animation: abc 1s;
+    background-color: #ddd;
+    padding: 10px;
+  }
+  @keyframes abc {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  button.active {
+    color: #fff !important;
+    background-color: red !important;
+    border: 0;
+  }
